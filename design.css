@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background: black;
+}
+.container{
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+header{
+
+	background: yellow;
+}
+header nav{
+	width: 100%;
+}
+header nav ul{
+	overflow: hidden;
+	list-style: none;
+}
+header nav ul li{
+
+	float: left;
+}
+header nav ul li a{
+	color: black;
+	text-decoration: none;
+	padding: 15px 20px;
+	display: inline-block;
+}
+header nav ul li a:hover{
+	background: black;
+	color: #fff;
+
+}
+.main{
+	width: 70%;
+	float: left;
+	background: yellow;
+}
+.main.imgagen{
+	width: 100%;
+}
+.main .imagen img{
+ 	width: 100%;
+ 	vertical-align: top;
+}
+.main .posts{
+	padding: 40px;
+}
+.main .posts .article{
+	margin-bottom: 20px;
+
+}
+.main .posts .article h2{
+	margin-bottom: 15px;
+	line-height: 27px;
+}
+aside{
+	width: 30%;
+	float: left;
+	background: #959595;
+	padding: 20px;
+	color: black;
+}
+aside .widget{
+	margin-bottom: 20px;
+}
+aside .widget .titulo{
+	color: black;
+	border-bottom: 3px solid black;
+	margin-bottom: 10px;
+
+}
+aside .widget ul {
+	
+}
+aside .widget ul li{
+	list-style: none;
+	border-bottom: solid rgb(255, 255, 255);
+	padding: 10px 0px;
+
+}
+aside .widget ul li a{
+	text-decoration: none;
+	color: black;
+
+}
+aside .widget ul li a:hover{
+	color: white;
+}
+aside .widget p{
+	line-height: 20px;
+}
+footer{
+	background:black ;
+	width: 70%;
+	text-align: center;
+	color: #fff;
+	padding: 15px;
+	overflow: hidden;
+}
+@media screen and (max-width: 800px){
+	.main{
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+
+	}
+	footer{
+		width: 100%;
+
+	}
+}
